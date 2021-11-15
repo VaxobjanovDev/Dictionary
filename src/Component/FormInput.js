@@ -1,13 +1,18 @@
-import Input from '../UI/Input'
+import Input from "../UI/Input";
+import "./FormInput.css";
 
-const FormInput = ({word, setWord}) => {
+const FormInput = ({ word, setWord }) => {
+  return (
+    <div className="form-input">
+      <h1>{word ? word : "Search..."}</h1>
+      <Input
+        className="inputs"
+        placeholder="Search..."
+        value={word}
+        onChange={(e) => setWord(e.target.value)}
+      />
+    </div>
+  );
+};
 
-    return (
-        <div className='form-input'>
-            <h2>{word?word:"Enter a Word"}</h2>
-            <Input placeholder="Search..." value={word} onChange={e=>setWord(e.target.value)} />
-        </div>
-    )
-}
-
-export default FormInput
+export default FormInput;

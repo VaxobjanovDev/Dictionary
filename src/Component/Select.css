@@ -1,0 +1,14 @@
+.form-selected {
+  margin: 6.2rem 2rem;
+}
+
+.select {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+@media screen and (max-width: 576px) {
+  .form-selected {
+    margin: 0 1rem;
+  }
+}
