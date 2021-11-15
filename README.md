@@ -1,6 +1,6 @@
 # Dictionary
 
-You can see yhis simple app 
+You can see this simple app https://definitions-app.netlify.app
 
 ## Available Scripts
 
