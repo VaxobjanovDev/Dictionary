@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Dictionary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can see this simple app https://definitions-app.netlify.app
 
 ## Available Scripts
 
