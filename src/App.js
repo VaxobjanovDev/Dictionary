@@ -1,10 +1,10 @@
 import React from 'react'
-import Game from './Component/Game'
+import Header from './Component/Header'
 
 const App = () => {
     return (
         <>
-        <Game/>
+        <Header/>
         </>
     )
 }
